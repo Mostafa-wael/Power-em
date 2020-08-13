@@ -1,0 +1,234 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Century Gothic','Caviar Dreams','Arial';
+	background-color: #323;
+	color: aliceblue;
+}
+a {
+	text-decoration: none;
+	color: #323;
+	font-weight: bold;
+}
+
+header p {
+	margin-top: -0.5em;
+	margin-left: 3.2vw;
+	z-index: 6;
+	font-size: 0.95vw;
+	color: #2266CC;
+}
+.fl {
+	float: right;
+	font-size: large;
+}
+.fl span {
+	color: red;
+}
+.clear {
+	clear: both;
+}
+.logo {
+	margin-top: 1em;
+	width: 30vw;
+	margin-left: 1vw;
+	z-index: 5;
+}
+
+.main {
+	display: block;
+}
+
+
+
+.elements {
+	background-color: rgba(255,255,255,1);
+	grid-template-columns: auto auto auto auto auto auto ;
+	color: rgba(0,0,0,1);
+	list-style: none;
+	display: grid;
+	margin: 0;
+	padding-left: 0;
+}
+.elements li {
+	background-color: #ffffff;
+	color: #323;
+	border-width: 0.1vw;
+	border-style: solid;
+	border-color: rgb(180,180,180);
+	padding: 1vw 2vw;
+	text-align: center;
+	transition: 0.4s;
+}
+.elements li:hover {
+	color: aliceblue;
+	padding: 1vw 6vw;
+	text-align: center;
+}
+#C:hover {
+	background-color: rgb(70,120,190);
+}
+#R:hover {
+	background-color: rgb(200,120,70);
+}
+#L:hover {
+	background-color: rgb(190,70,100);
+}
+#V:hover {
+	background: linear-gradient(to left,rgb(70,120,190) 30%,rgb(190,70,80)70%);
+}
+#I:hover {
+	background-color: rgb(90,90,90);
+}
+#Delete {
+	vertical-align:central;
+	padding-top: 2.8vw;
+	cursor: pointer;
+}
+#Delete:hover {
+	padding-top: 3vw;
+	border-color: rgb(200,100,100);
+	background-color: rgb(200,100,100);
+}
+
+/*.elements li:Active{
+	border-width: 0.2vw;
+	border-style: solid;
+	background-color: rgb(70,120,190);
+	color: aliceblue;
+	padding: 1vw 8vw;
+	text-align: center;
+	border-color: rgb(120,160,250);
+}*/
+#Delete:active{
+	background-color: rgb(160,10,10);
+	border-color: rgb(255,130,130);
+}
+
+
+.Grid {
+	background-color: rgba(255,255,255,1);
+	grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+	color: rgba(0,0,0,0.3);
+	display: grid;
+	margin: 0;
+	padding-left: 0;
+	text-align: center;
+	font-size: 1vw;
+}
+.Grid img {
+	position: absolute;
+	margin: -2vw 0 0 -3.5vw;
+    width: 5vw;
+}
+
+.Grid div {
+	border-width: 0.1vw;
+	border-style: solid;
+	border-color: rgb(220,220,220);
+	padding: 1.78vw 0;
+	z-index: 2;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+
+.elements li {
+	cursor: pointer;
+	font-size: 1.7vw;
+	display: inline;
+	text-align: center;
+}
+.elements li:hover > .cont div
+{
+	border-width: 0.14vw;
+	border-color: rgb(120,160,250);
+	font-size: 1vw;
+}
+.elements li:hover > .cont
+{
+	margin: 0 -6vw 0 -3.6vw;
+	cursor: pointer;
+
+}
+.elements li:hover {
+	font-size: 0.8vw;
+}
+.elements li img {
+	text-align: center;
+	width: 0;
+	transition: 0.4s;
+	padding: 0;
+	margin: 0;
+}
+.elements li:hover > img {
+	width: 10vw;
+}
+.uls li {
+	list-style-type: none;
+	margin: 10px 10px 10px;
+}
+.uls {
+text-align: center;
+}
+.l {
+	margin-left: 50px;
+	font-family: monterat;
+	font-size: large;
+
+}
+.but {
+	margin: 0 1vw;
+	padding: 1.2vw 6vw;
+	cursor: pointer;
+	background-color: rgba(220,50,90,0.7);
+	border-width: 3px;
+	border-style: solid;
+	border-color: rgb(255,100,150);
+	transition: 0.2s;
+	font-size: 2.5vw;
+	font-family: 'Century Gothic','Caviar Dreams','Arial';
+}
+.butt {
+	margin: 0 1vw;
+	padding: 1vw 2vw;
+	cursor: pointer;
+	background-color: rgba(220,100,50,0.7);
+	border-width: 3px;
+	border-style: solid;
+	border-color: rgb(255,160,100);
+	transition: 0.2s;
+	font-size: 1.8vw;
+	color: #323;
+	font-family: 'Century Gothic','Caviar Dreams','Arial';
+}
+label input {
+	display: none;
+}
+.but:hover {
+	border-color: rgb(255,255,255);
+	background-color: rgba(255,255,255,1);
+}
+.butt:hover {
+	border-color: rgb(255,255,255);
+	background-color: rgba(255,255,255,1);
+}
+
+.tab {
+	grid-area: 1/1/9/5;
+	text-align: left;
+	color: black;
+	width: initial;
+	font-size: 0.9vw;
+	font-weight: bold;
+}
+.Fixsize {
+	color: white;
+}
+.MD {
+	transform: scale(1.414) rotate(46deg);
+}
+.OD {
+	transform: scale(1.414) rotate(134deg);
+}
+

@@ -1,0 +1,105 @@
+body {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: 'Century Gothic','Caviar Dreams','Arial';
+	background-color: #323;
+	color: aliceblue;
+}
+
+a {
+	text-decoration: none;
+	color: #323;
+	font-size: 2vw;
+	font-weight: bold;
+}
+.logo {
+	margin-top: 5vw;
+	width: 40vw;
+	z-index: 5;
+}
+header p {
+	margin-top: -0.5em;
+	z-index: 6;
+	font-size: 1vw;
+	color: #2266CC;
+}
+
+.contact
+{	background-color: rgba(220,100,50,0.5);
+	border-width: 3px;
+	border-style: solid;
+	border-color: rgb(255,160,100);
+	transition: 0.5s;
+	margin: 2vw 35vw;
+}
+
+.contact:hover {
+	border-color: rgb(255,255,255);
+	background-color: rgba(255,255,255,1);
+}
+
+.By {
+	font-size: 1vw;
+	color: rgb(220,50,120);
+}
+.CREDITS {
+	display: inline-flex;
+	font-weight: bold;
+	font-size: 1.5vw;
+	list-style: none;
+	margin: 0;
+}
+.CREDITS p {
+	padding: 0 2vw;
+	border-color: rgb(220,50,120);
+	border-style: solid;
+	border-width : 0 0.2vw 0 0.2vw;
+}
+
+.CREDITS li:nth-child(4) p {
+	border-width: 0 0 0 0.2vw;
+}
+.CREDITS li:nth-child(1) p {
+	border-width: 0 0.2vw 0 0;
+}
+
+.SB {
+	margin-top: 1vw;
+	font-size: 1vw;
+	color: #2266CC;
+}
+
+.Dr {
+	font-weight: bold;
+	font-size: 2vw;
+	margin: 1vw 0 3vw;
+}
+Dr:hover {
+	margin: 1vw 0 0vw;
+}
+
+.TY {
+	font-size: 0;
+	color: #2266CC;
+	transition: 0.4s;
+}
+.Dr:hover > .TY {
+	font-size: 2vw;
+	margin: 0 0 -2vw;
+}
+.Heart {
+	width: 2vw;
+	height: 2vw;
+}
+
+
+.F1 {
+	font-weight: bold;
+	display: inline;
+	font-size: 1.3vw;
+}
+.F2 {
+	color: rgb(255,160,100);
+	font-size: 0.8vw;
+}

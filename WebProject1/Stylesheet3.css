@@ -1,0 +1,105 @@
+body {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: 'Century Gothic','Caviar Dreams','Arial';
+	background-color: #323;
+	color: aliceblue;
+}
+
+a {
+	text-decoration: none;
+	color: #323;
+	font-size: 2vw;
+	font-weight: bold;
+}
+
+header {
+	text-align: left;
+}
+
+header p {
+	margin-top: -0.5em;
+	margin-left: 3.2vw;
+	z-index: 6;
+	font-size: 0.95vw;
+	color: #2266CC;
+}
+
+.logo {
+	margin-top: 1em;
+	width: 30vw;
+	margin-left: 1vw;
+	z-index: 5;
+}
+.Submition {
+	font-weight: bold;
+	font-size: 1.5vw;
+	list-style: none;
+	margin: 5vw 5vw 0;
+	line-height: 4vw;
+	padding-left:0;
+}
+.Submition li:nth-child(1) label {
+	font-family: 'Century Gothic','Caviar Dreams','Arial';
+	font-size: 1.5vw;
+	list-style: none;
+	margin: 2vw;
+}
+.Submition li:nth-child(1) label input {
+	display: none;
+}
+.Submition li:nth-child(1) label span {
+	background-color: rgba(220,100,50,0.5);
+	border-width: 3px;
+	border-style: solid;
+	border-color: rgb(255,160,100);
+	transition: 0.5s;
+	margin: 4vw 0;
+	padding: 1vw 3vw;
+	color: #323;
+	font-weight: bold;
+}
+
+.Submition li:nth-child(1) label span:hover {
+	border-color: rgb(255,255,255);
+	background-color: rgba(255,255,255,1);
+}
+
+.Submition li:nth-child(3) label span {
+	margin: 4vw 0 0;
+	color: #fff;
+	font-weight: normal;
+	font-size: 0.8vw;
+}
+.Submition li:nth-child(3) {
+	line-height: 0;
+	margin: 1vw;
+
+}
+.Submition li:nth-child(4) label textarea {
+	resize: none;
+	margin-bottom: 0vw;
+	margin-top: -0.5vw;
+	
+}
+.Submition li:nth-child(5) label input {
+	display: none;
+}
+.Submition li:nth-child(5) label span {
+	background-color: rgba(220,50,120,0.5);
+	border-width: 3px;
+	border-style: solid;
+	border-color: rgb(255,100,150);
+	transition: 0.5s;
+	margin: 4vw 0 0;
+	padding: 1vw 3vw;
+	line-height: 0;
+	color: #323;
+	font-weight: bold;
+}
+
+.Submition li:nth-child(5) label span:hover {
+	border-color: rgb(255,255,255);
+	background-color: rgba(255,255,255,1);
+}

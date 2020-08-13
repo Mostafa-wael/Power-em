@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title>Create a circuit</title>
+	<link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+	<link rel="stylesheet" href="Stylesheet4.css" />
+	<link rel="icon" href="Icon.png">
+	<script src="main.js"></script>
+</head>
+<body>
+	<header>
+		<a href="index.html">
+			<img class="logo" src="Logo.png" alt="Logo">
+		</a>
+		<p>Power'em is a CAD tool used to solve AC & DC circuits.</p>
+		<p class="fl"> <span>Note: </span> n in the grid refer to No.node</p>
+	</header>
+	<div class="clear"></div>
+	<nav>
+			<ul class="uls">
+				<li>
+					<label><span class="butt">Draw from Netlist - *TBA*</span><input type="file"></label>
+					<button class="but" onclick="Txt()">Get Netlist</button>
+					<label><span class="butt">Graph Output Stats - *TBA*</span><input type="file"  onclick="Graph()"></label>
+				</li>
+			</ul>
+		</nav>
+	<div class="main">
+		<ul class="elements">
+			<li id="V" onclick="myFunction(this.id)">
+				<p>Vss</p><img src='elements/Vss.png'>
+			</li>
+			<li id="I" onclick="myFunction(this.id)">
+				<p>Iss</p><img src='elements/Iss.png'>
+			</li>
+			<li id="R" onclick="myFunction(this.id)">
+				<p>Res</p><img src='elements/Res.png'>
+			</li>
+			<li id="C" onclick="myFunction(this.id)">
+				<p>Cap</p><img src='elements/Cap.png'>
+			</li>
+			<li id="L" onclick="myFunction(this.id)">
+				<p>Lnd</p><img src='elements/Lnd.png'>
+			</li>
+			<li id="Delete" onclick="Delete()">Delete</li>
+		</ul>
+		<br />
+		<div class="Bottom">
+			<script>
+				function grid(el) {
+					var container = document.createElement("div");
+					container.id = "container";
+					container.className = "Grid";
+					for (i = 1; i <= 16 * 6; i++) {
+						var row = document.createElement("div");
+						row.className = "row";
+						row.id = (i<10)? "n0" + i : "n"+ i; 
+						row.innerHTML = row.id;
+						container.appendChild(row);
+						container.innerHTML = container.innerHTML.replace(("class=\"row\" id"),("class=\"row\" onclick = 'GetNode(this.id)' id"));
+					};
+					var tab = document.createElement("div");
+					tab.id = "tab";
+					tab.className = "tab";
+					tab.innerHTML = "<p class = 'Fixsize'>Fix the size of the grid<p/>";
+					container.appendChild(tab);
+					el.appendChild(container);
+				};
+				grid(document.body);
+			</script>
+			
+		</div>
+	</div>
+</body>
+</html>
+<script>
+	
+</script>
+
+
+
+
+
+

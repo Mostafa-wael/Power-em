@@ -1,0 +1,176 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>4cac74e6-93c3-47c2-9255-2a3d49237463</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>WebProject1</Name>
+    <RootNamespace>WebProject1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Cap.mp4" />
+    <Content Include="elements\Cap.png" />
+    <Content Include="elements\CapHE.png" />
+    <Content Include="elements\CapHF.png" />
+    <Content Include="elements\CapHM.png" />
+    <Content Include="elements\CapVE.png" />
+    <Content Include="elements\CapVF.png" />
+    <Content Include="elements\CapVM.png" />
+    <Content Include="elements\CHE.png" />
+    <Content Include="elements\CHF.png" />
+    <Content Include="elements\CHM.png" />
+    <Content Include="elements\CVE.png" />
+    <Content Include="elements\CVF.png" />
+    <Content Include="elements\CVM.png" />
+    <Content Include="elements\IcHE.png" />
+    <Content Include="elements\IcHF.png" />
+    <Content Include="elements\IcHM.png" />
+    <Content Include="elements\IcVE.png" />
+    <Content Include="elements\IcVF.png" />
+    <Content Include="elements\IcVM.png" />
+    <Content Include="elements\IHE.png" />
+    <Content Include="elements\IHF.png" />
+    <Content Include="elements\IHM.png" />
+    <Content Include="elements\Iss - Copy.png" />
+    <Content Include="elements\Iss.png" />
+    <Content Include="elements\IssHE.png" />
+    <Content Include="elements\IssHF.png" />
+    <Content Include="elements\IssHM.png" />
+    <Content Include="elements\IssVE.png" />
+    <Content Include="elements\IssVF.png" />
+    <Content Include="elements\IssVM.png" />
+    <Content Include="elements\IVE.png" />
+    <Content Include="elements\IVF.png" />
+    <Content Include="elements\IVM.png" />
+    <Content Include="elements\LHE.png" />
+    <Content Include="elements\LHF.png" />
+    <Content Include="elements\LHM.png" />
+    <Content Include="elements\Lnd.png" />
+    <Content Include="elements\LndHE.png" />
+    <Content Include="elements\LndHF.png" />
+    <Content Include="elements\LndHM.png" />
+    <Content Include="elements\LndVE.png" />
+    <Content Include="elements\LndVF.png" />
+    <Content Include="elements\LndVM.png" />
+    <Content Include="elements\LVE.png" />
+    <Content Include="elements\LVF.png" />
+    <Content Include="elements\LVM.png" />
+    <Content Include="elements\Res.png" />
+    <Content Include="elements\ResHE.png" />
+    <Content Include="elements\ResHF.png" />
+    <Content Include="elements\ResHM.png" />
+    <Content Include="elements\ResVE.png" />
+    <Content Include="elements\ResVF.png" />
+    <Content Include="elements\ResVM.png" />
+    <Content Include="elements\RHE.png" />
+    <Content Include="elements\RHF.png" />
+    <Content Include="elements\RHM.png" />
+    <Content Include="elements\RVE.png" />
+    <Content Include="elements\RVF.png" />
+    <Content Include="elements\RVM.png" />
+    <Content Include="elements\VcHE.png" />
+    <Content Include="elements\VcHF.png" />
+    <Content Include="elements\VcHM.png" />
+    <Content Include="elements\VcVE.png" />
+    <Content Include="elements\VcVF.png" />
+    <Content Include="elements\VcVM.png" />
+    <Content Include="elements\VHE.png" />
+    <Content Include="elements\VHF.png" />
+    <Content Include="elements\VHM.png" />
+    <Content Include="elements\Vss - Copy.png" />
+    <Content Include="elements\Vss.png" />
+    <Content Include="elements\VssHE.png" />
+    <Content Include="elements\VssHF.png" />
+    <Content Include="elements\VssHM.png" />
+    <Content Include="elements\VssVE.png" />
+    <Content Include="elements\VssVF.png" />
+    <Content Include="elements\VssVM.png" />
+    <Content Include="elements\VVE.png" />
+    <Content Include="elements\VVF.png" />
+    <Content Include="elements\VVM.png" />
+    <Content Include="elements\WHE.png" />
+    <Content Include="elements\WHF.png" />
+    <Content Include="elements\WHM.png" />
+    <Content Include="elements\Wire.png" />
+    <Content Include="elements\WVE.png" />
+    <Content Include="elements\WVF.png" />
+    <Content Include="elements\WVM.png" />
+    <Content Include="Icon.png" />
+    <Content Include="Ind.mp4" />
+    <Content Include="JavaScript.js" />
+    <Content Include="Logo.png" />
+    <Content Include="Credits.html" />
+    <Content Include="Heart.png" />
+    <Content Include="main.js" />
+    <Content Include="Res.mp4" />
+    <Content Include="Stylesheet1.css" />
+    <Content Include="index.html" />
+    <Content Include="Stylesheet2.css" />
+    <Content Include="Stylesheet3.css" />
+    <Content Include="Netlist.html" />
+    <Content Include="Stylesheet4.css" />
+    <Content Include="DragDrop.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="elements\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
