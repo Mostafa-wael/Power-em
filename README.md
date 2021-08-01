@@ -13,10 +13,10 @@
 
    <h2 align="center">⚡ Action ⚡</h2>
 <div align="center">
-  <p> <b> Quick Tour <b> </p>
+  <p> <b> Quick Tour </b> </p>
 <img src="/Screenshots/Website.gif" width="800" align="center">
-  <p> <b> Circuit Example <b> </p>
-<img src="/Screenshots/Capture.png" width="800" align="center">
+  <p> <b> <br> Circuit Example </b> </p>
+<img src="/Screenshots/Capture.PNG" width="800" align="center">
 </div>
   <p> <br> Note that the course project only required the python the module that solves the netlist. </p>
 
