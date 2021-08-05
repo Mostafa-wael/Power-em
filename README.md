@@ -1,5 +1,5 @@
 <div align="center">
-<img src="/WebProject1/Logo.png" width="500" align="center">
+<img src="/WebProject1/Logo.png" width="500" align="center" title="True developers have their Github on dark mode.">
 </div>
 <p>
   <b>Power'em</b> is a website that allows the user to draw <b>any</b> RLC circuit and solve it. Say bye to CircuitLab, bye to Multisim and embrace Power'em. The project serves as a partial fulfillment of the Requirements of the Circuits' course that's taught to Computer Engineering freshmen (2019-2020) at Cairo Uiversity.
